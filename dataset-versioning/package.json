@@ -1,0 +1,11 @@
+{
+  "name": "dataset-versioning",
+  "version": "1.0.0",
+  "description": "带分支与三方合并的数据集管理工具（本地表 + 不可变版本）",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "smoke": "node test/smoke.mjs"
+  }
+}
